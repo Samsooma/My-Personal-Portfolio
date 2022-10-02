@@ -16,10 +16,10 @@ import {Link} from "react-router-dom";
 class ContentCards extends Component {
   render() {
     return (
-        <div style={{display:"flex" , alignItems:"center", justifyContent: "center"}}>
+        <div style={{display:"flex" , alignItems:"center", justifyContent: "center", paddingBottom:60}}>
           <Grid container spacing={10} direction="row" alignItems="center" justifyContent="center" maxWidth={"60%"} sx={{paddingTop:10}}>
             <Grid item xs={12} md={7} lg={6}>
-            <Link to={'/product'} className="nav-link"> 
+            <Link to={'/product'} className="nav-link" style={{ textDecoration: 'none'}}> 
               <Card sx={{ backgroundColor: "#6C4679", opacity:0.8, borderRadius: 10}}>
                   <Grid item>
                     <img className="youtubeLogo" src={YoutubeLogo}></img>
@@ -35,7 +35,7 @@ class ContentCards extends Component {
                 </Link>
             </Grid>
             <Grid item xs={12} md={7} lg={6}>
-            <a href="https://github.com/Samsooma/My-Personal-Portfolio">
+            <a href="https://github.com/Samsooma/My-Personal-Portfolio" style={{ textDecoration: 'none'}}>
               <Card sx={{ backgroundColor: "#262B9A", opacity:0.8, borderRadius: 10}}>
                   <Grid item>
                     <img className="websiteLogo" src={WebsiteLogo}></img>
@@ -51,7 +51,7 @@ class ContentCards extends Component {
               </a>
             </Grid>
             <Grid item xs={12} md={7} lg={6}>
-            <Link to={'/hbp'} className="nav-link">
+            <Link to={'/hbp'} className="nav-link" style={{ textDecoration: 'none'}}>
               <Card sx={{ backgroundColor: "#1E3F57", opacity:0.8, borderRadius: 10}}>
                   <Grid item>
                     <img className="hackathonLogo" src={HackathonLogo}></img>
@@ -67,7 +67,7 @@ class ContentCards extends Component {
               </Link>
             </Grid>
             <Grid item xs={12} md={7} lg={6}>
-            <Link to={'/multi'} className="nav-link">
+            <Link to={'/multi'} className="nav-link" style={{ textDecoration: 'none'}}>
               <Card sx={{ backgroundColor: "#1E3F57", opacity:0.8, borderRadius: 10}}>
                   <Grid item>
                     <img className="techLogo" src={TechLogo}></img>

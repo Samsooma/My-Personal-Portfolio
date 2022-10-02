@@ -27,6 +27,8 @@ import HackBeanpotPage from './posts/HackBeanpotPage';
 import Bio from './Bio';
 import ContentCards from './ContentCards';
 import HomePage from './HomePage';
+import CreditPage from './CreditPage';
+
 
 
 
@@ -47,6 +49,7 @@ class App extends React.Component {
               <Route path='/product' element={<ProductPage/  >} exact/>
               <Route path='/hbp' element={<HackBeanpotPage/ >} />
               <Route path='/multi' element={<MULTIPage/ >} />
+              <Route path='/credits' element={<CreditPage/>}/>
           </Routes>
         </div>
         </Router>

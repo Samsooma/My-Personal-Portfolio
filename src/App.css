@@ -74,63 +74,60 @@
 }
 
 .youtubeLogo{
-  /* justify-content: center;
-  align-items: center; */
   width: 80%;
 }
 
 .websiteLogo{
-  /* justify-content: center;
-  align-items: center; */
   width: 80%;
 }
 
 .hackathonLogo{
-  /* justify-content: center;
-  align-items: center; */
   width: 80%;
 }
 
 .techLogo{
-  /* justify-content: center;
-  align-items: center; */
   width: 80%;
 }
 
 .javaImage{
-  /* justify-content: center;
-  align-items: center; */
   width: 10%;
 }
 
 .pythonImage{
-  /* justify-content: center;
-  align-items: center; */
   width: 10%;
 }
 
 .sqlImage{
-  /* justify-content: center;
-  align-items: center; */
   width: 10%;
 }
 
 .csharpImage{
-  /* justify-content: center;
-  align-items: center; */
   width: 10%;
 }
 
 .figmaImage{
-  /* justify-content: center;
-  align-items: center; */
   width: 10%;
 }
 
 .androidImage{
-  /* justify-content: center;
-  align-items: center; */
   width: 10%;
 }
 
+.credits {
+  justify-content: left;
+  align-items: left;
+}
+
+.creditList {
+  list-style-type: none;
+}
+
+.homePageCredits {
+  justify-content: 'left';
+  align-items:'left';
+  padding:30px;
+  display:'flex';
+  direction:'row';
+  background-color: #cac3cd55;
+}
 
