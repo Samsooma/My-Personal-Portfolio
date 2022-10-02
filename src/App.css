@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+  font-size: calc(20px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+.bioText{
+  font-size: 20px;
+  color: black;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bioCard{
+  background-color: #cac3cd55;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .bioCard{
+      width: 100%;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .bioCard{
+      width: 60%;
+    }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .bioCard{
+      width: 60%;
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .bioCard{
+      width: 60%;
+    }
+  }
+
+.listBio{
+  padding-top: 20px;
+}
+
+.showcase{
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.youtubeLogo{
+  /* justify-content: center;
+  align-items: center; */
+  width: 80%;
+}
+
+.websiteLogo{
+  /* justify-content: center;
+  align-items: center; */
+  width: 80%;
+}
+
+.hackathonLogo{
+  /* justify-content: center;
+  align-items: center; */
+  width: 80%;
+}
+
+.techLogo{
+  /* justify-content: center;
+  align-items: center; */
+  width: 80%;
+}
+
+.javaImage{
+  /* justify-content: center;
+  align-items: center; */
+  width: 10%;
+}
+
+.pythonImage{
+  /* justify-content: center;
+  align-items: center; */
+  width: 10%;
+}
+
+.sqlImage{
+  /* justify-content: center;
+  align-items: center; */
+  width: 10%;
+}
+
+.csharpImage{
+  /* justify-content: center;
+  align-items: center; */
+  width: 10%;
+}
+
+.figmaImage{
+  /* justify-content: center;
+  align-items: center; */
+  width: 10%;
+}
+
+.androidImage{
+  /* justify-content: center;
+  align-items: center; */
+  width: 10%;
+}
+
+

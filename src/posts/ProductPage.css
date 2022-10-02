@@ -1,0 +1,13 @@
+.productPageContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left;
+    color: rgb(80, 76, 76);
+}
+
+h3 {
+    color: black;
+}

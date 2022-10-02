@@ -1,0 +1,8 @@
+.hackBeanpotContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+}
