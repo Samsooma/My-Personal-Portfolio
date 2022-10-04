@@ -1,3 +1,4 @@
+import { Grid } from '@mui/material';
 import React, { Component } from 'react';
 import './ProductPage.css';
 
@@ -8,6 +9,7 @@ function ProductPage()   {
             Why Youtube is one of my favorite products!
           </h2>
           <div className="productPageContent">
+          <Grid container sx={{justifyContent:'center'}} xs={9} md={5} lg={5}>
             <p>
             <b> Note: </b>This article is intended for those interested in Product Managmemt and was used to apply for those roles, so keep that context in mind while reading this!
             </p>
@@ -81,6 +83,7 @@ function ProductPage()   {
               <br/>
               While TikTok may be competing with Youtube in engagement rates, TikTok does not provide users with the same affordances that the Youtube platform does. Youtube affords its content creators the ability to create longer-form content and long-term stability on a platform. In addition to Youtube’s creator features, Youtube now also grants the creators on their platform to create shorter form content through Youtube Shorts.
             </p>
+          </Grid>
           </div>
         </div>
     );

@@ -1,9 +1,8 @@
 .productPageContent{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    margin-left: 30%;
-    margin-right: 30%;
+    align-items: center;
+    justify-content: center;
     text-align: left;
     color: rgb(80, 76, 76);
 }
