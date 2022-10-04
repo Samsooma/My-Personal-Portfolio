@@ -17,8 +17,8 @@ class ContentCards extends Component {
   render() {
     return (
         <div style={{display:"flex" , alignItems:"center", justifyContent: "center", paddingBottom:60}}>
-          <Grid container spacing={10} direction="row" alignItems="center" justifyContent="center" maxWidth={"60%"} sx={{paddingTop:10}}>
-            <Grid item xs={12} md={7} lg={6}>
+          <Grid container spacing={10} xs={10} md={9} lg={9.5} direction="row" alignItems="center" justifyContent="center"  sx={{paddingTop:10}}>
+            <Grid item xs={12} md={6} lg={4.5}>
             <Link to={'/product'} className="nav-link" style={{ textDecoration: 'none'}}> 
               <Card sx={{ backgroundColor: "#6C4679", opacity:0.8, borderRadius: 10}}>
                   <Grid item>
@@ -34,7 +34,7 @@ class ContentCards extends Component {
                 </Card>
                 </Link>
             </Grid>
-            <Grid item xs={12} md={7} lg={6}>
+            <Grid item xs={12} md={6} lg={4.5}>
             <a href="https://github.com/Samsooma/My-Personal-Portfolio" style={{ textDecoration: 'none'}}>
               <Card sx={{ backgroundColor: "#262B9A", opacity:0.8, borderRadius: 10}}>
                   <Grid item>
@@ -50,7 +50,7 @@ class ContentCards extends Component {
               </Card>
               </a>
             </Grid>
-            <Grid item xs={12} md={7} lg={6}>
+            <Grid item xs={12} md={6} lg={4.5}>
             <Link to={'/hbp'} className="nav-link" style={{ textDecoration: 'none'}}>
               <Card sx={{ backgroundColor: "#1E3F57", opacity:0.8, borderRadius: 10}}>
                   <Grid item>
@@ -66,7 +66,7 @@ class ContentCards extends Component {
               </Card>
               </Link>
             </Grid>
-            <Grid item xs={12} md={7} lg={6}>
+            <Grid item xs={12} md={6} lg={4.5}>
             <Link to={'/multi'} className="nav-link" style={{ textDecoration: 'none'}}>
               <Card sx={{ backgroundColor: "#1E3F57", opacity:0.8, borderRadius: 10}}>
                   <Grid item>
