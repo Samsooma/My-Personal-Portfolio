@@ -1,8 +1,12 @@
 import { Grid } from '@mui/material';
 import React, { Component } from 'react';
+import {useEffect, useState} from 'react';
 import './ProductPage.css';
 
 function ProductPage()   {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
     return (
         <div>
           <h2>

@@ -1,4 +1,6 @@
 import React, { Component, useState } from 'react';
+import {useEffect} from 'react';
+
 import './HackBeanpotPage.css';
 import Grid from '@mui/material/Grid';
 import Chip from '@mui/material/Chip';
@@ -9,6 +11,9 @@ import Link from '@mui/material/Link';
 
 
 function HackBeanpotPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
     return (
         <div>
         <div className="hackBeanpotContent"> 
