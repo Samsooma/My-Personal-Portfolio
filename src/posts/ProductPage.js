@@ -1,6 +1,6 @@
 import { Grid } from '@mui/material';
-import React, { Component } from 'react';
-import {useEffect, useState} from 'react';
+import React from 'react';
+import {useEffect} from 'react';
 import './ProductPage.css';
 
 function ProductPage()   {

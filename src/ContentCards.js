@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
+import {Link} from "react-router-dom";
+
+import './App.css';
+
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import './App.css';
-import ProductPage from './posts/ProductPage';
-import MULTIPage from './posts/MULTIPage';
-import HackBeanpotPage from './posts/HackBeanpotPage';
+
+
 import Card from '@mui/material/Card';
 import YoutubeLogo from './images/YoutubeLogo.svg';
 import WebsiteLogo from './images/Website.svg';
 import HackathonLogo from './images/HackathonLogo.svg'
 import TechLogo from './images/TechLogo.svg'
-import {Link} from "react-router-dom";
+
 
 class ContentCards extends Component {
   render() {

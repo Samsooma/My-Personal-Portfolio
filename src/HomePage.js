@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Bio from './Bio';
 import ContentCards from './ContentCards';
