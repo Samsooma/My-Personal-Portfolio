@@ -37,7 +37,7 @@ class ContentCards extends Component {
                 </Link>
             </Grid>
             <Grid item xs={12} md={6} lg={4.5}>
-            <a href="https://github.com/Samsooma/My-Personal-Portfolio" style={{ textDecoration: 'none'}}>
+            <a href="https://github.com/Samsooma/My-Personal-Portfolio" target="_blank" style={{ textDecoration: 'none'}}>
               <Card sx={{ backgroundColor: "#262B9A", opacity:0.8, borderRadius: 10}}>
                   <Grid item>
                     <img className="websiteLogo" src={WebsiteLogo}></img>

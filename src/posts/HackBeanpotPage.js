@@ -29,12 +29,12 @@ function HackBeanpotPage() {
           </p>
           <h2>
           <Grid container justifyContent='center' spacing={2}>
-          <Link href="https://hackbeanpot.medium.com/humans-of-hackbeanpot-sama-el-tahawy-179b56bf6d75">
+          <Link href="https://hackbeanpot.medium.com/humans-of-hackbeanpot-sama-el-tahawy-179b56bf6d75" target="_blank">
             <Grid item sx={{padding:2}}>
               <Chip sx={{backgroundColor: '#1E3F57', opacity:0.8, color: 'white', borderRadius: 20, maxWidth:450, fontSize: 15, padding:2}} label="Humans of HackBeanpot: Sama El Tahawy"/>
             </Grid>
             </Link>
-            <Link href="https://hackbeanpot.com/ ">
+            <Link href="https://hackbeanpot.com/ " target="_blank">
             <Grid item sx={{padding:2}}>
               <Chip sx={{backgroundColor: '#1E3F57', opacity:0.8, color: 'white', borderRadius: 20, maxWidth:350, fontSize: 15, padding:2}} label="Check out HackBeanpot!"/>
             </Grid>
