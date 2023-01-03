@@ -15,9 +15,6 @@ function ProductPage()   {
           <div className="productPageContent">
           <Grid container sx={{justifyContent:'center'}} xs={9} md={5} lg={5}>
             <p>
-            <b> Note: </b>This article is intended for those interested in Product Managmemt and was used to apply for those roles, so keep that context in mind while reading this!
-            </p>
-            <p>
             I’ve been an active user of Youtube since 2009. I remember when video responses still existed and parodies, covers and skits as well as Minecraft tutorials were popular on the platform. It started out as a video-sharing platform and has blossomed into much more with now 2 billion active users and over 500 hours of videos uploaded every minute.
             <br/>
             <br/>

@@ -21,10 +21,10 @@ class Bio extends Component {
             justifyContent: 'center',
             paddingBottom:5}} spacing={1}>
             <Grid item xs="auto">
-              <Chip sx={{backgroundColor:'#6C4679' , color: "white", fontSize:"25px" , fontFamily: `"Montserrat", sans-serif`, opacity:0.8, width:320}} label="Product Manager"/>
+              <Chip sx={{backgroundColor:'#262B9A' , color: "white", fontSize:"25px" , fontFamily: `"Montserrat", sans-serif` , opacity:0.8, width:320}} label="Software Engineer"/>
             </Grid>
             <Grid item xs="auto">
-              <Chip sx={{backgroundColor:'#262B9A' , color: "white", fontSize:"25px" , fontFamily: `"Montserrat", sans-serif` , opacity:0.8, width:320}} label="Software Engineer"/>
+              <Chip sx={{backgroundColor:'#6C4679' , color: "white", fontSize:"25px" , fontFamily: `"Montserrat", sans-serif`, opacity:0.8, width:320}} label="Product Manager"/>
             </Grid>
             <Grid item xs="auto">
               <Chip sx={{backgroundColor:'#1E3F57' , color: "white", fontSize:"25px" , fontFamily: `"Montserrat", sans-serif`, opacity:0.8, width:320}} label="Leader" />
